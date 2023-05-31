@@ -11,7 +11,9 @@
     "client": "cd client && npm start"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "@babel/plugin-proposal-object-rest-spread": "^7.20.7",
+    "express": "^4.17.1",
+    "idb": "^7.1.1"
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
